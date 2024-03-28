@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalles-Demo</title>
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS File -->
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header>
+        <div class="big-nav">
+            <nav class="nav">
+                <div class="container">
+                    <div class="nav-row">
+                        <div class="bars">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+                        <div class="logo">
+                            <h1>
+                                <a href="./index.html">
+                                    <img src="./imgs/logo_c6c02253-b1fc-4536-91a6-a3c9110c5550 (1).webp" alt="">
+                                </a>
+                            </h1>
+                        </div>
+                        <div class="nav-input">
+                            <input type="text" placeholder="Search For Products">
+                            <div class="selection">
+                                <select>
+                                    <option>All Categories</option>
+                                </select>
+                            </div>
+                            <button class="search">
+                                search
+                            </button>
+                        </div>
+                        <div class="right-icons">
+                            <i class="fa-regular fa-user"></i>
+                            <i class="fa-regular fa-heart" id="clicks"><span>0</span></i>
+                            <i class="fa-solid fa-cart-shopping" id="clicks"><span>0</span></i>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="theUl">
+                <div class="container">
+                    <div class="theUl-row">
+                        <div class="left-ul">
+                        <div class="first">
+                            <i class="fa-solid fa-bars"></i>
+                            <h3>shop by category</h3>
+                        </div>
+                        <ul>
+                            <li><a href="#">demo</a></li>
+                            <li><a href="#">shop</a></li>
+                            <li><a href="#">product</a></li>
+                            <li><a href="#">sale</a></li>
+                            <li><a href="#">pages</a></li>
+                            <li><a href="#">lookbooks</a></li>
+                            <li><a href="#">blog</a></li>
+                            <li><a href="#">buy</a></li>
+                        </ul>
+                    </div>
+                    <div class="right-contact">
+                        <a href="#" class="phone">
+                            +01 23456789
+                        </a>
+                        <a href="#" class="email">
+                            kalles@domain.com
+                        </a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="up">
+            <div class="container">
+                <div class="up-row">
+                    <div class="left-social">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-pinterest-p"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                    <p>Summer sale discount off <span>50%</span> use code “SUMMER20”! <a href="#">Shop Now</a></p>
+                    <h5>Egypt <i class="fa-solid fa-angle-down"></i></h5>
+                </div>
+            </div>
+        </div>
+        <nav class="nav">
+            <div class="container">
+                <div class="nav-row">
+                    <div class="bars">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <div class="logo">
+                        <h1>
+                            <a href="./index.html">
+                                <img src="./imgs/logo_c6c02253-b1fc-4536-91a6-a3c9110c5550 (1).webp" alt="">
+                            </a>
+                        </h1>
+                    </div>
+                    <div class="nav-input">
+                        <input type="text" placeholder="Search For Products">
+                        <div class="selection">
+                            <select>
+                                <option>All Categories</option>
+                            </select>
+                        </div>
+                        <button class="search">
+                            search
+                        </button>
+                    </div>
+                    <div class="right-icons">
+                        <i class="fa-regular fa-user"></i>
+                        <i class="fa-regular fa-heart" id="clicks"><span>0</span></i>
+                        <i class="fa-solid fa-cart-shopping" id="clicks"><span>0</span></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <aside class="aside1">
+            <div class="twoButtons">
+                <button>menu</button>
+                <button>Categories</button>
+            </div>
+            <div class="close1">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="aside-container">
+                <ul>
+                    <li><a href="#">demo</a></li>
+                    <li><a href="#">shop</a></li>
+                    <li><a href="#">product</a></li>
+                    <li><a href="#">sale</a></li>
+                    <li><a href="#">portfolio</a></li>
+                    <li><a href="#">lookbook</a></li>
+                    <li><a href="#">blog</a></li>
+                    <li><a href="#">buy theme</a></li>
+                    <li><a href="#"><i class="fa-regular fa-heart"></i> wishlist(0)</a></li>
+                    <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i> search</a></li>
+                    <li><a href="#"><i class="fa-regular fa-user"></i> login / register</a></li>
+                    <li>
+                        <h5>need help?</h5>
+                        <p class="phone3">
+                            +001 2233 456
+                        </p>
+                        <p class="email3">
+                            contact@company.com
+                        </p>
+                    </li>
+                    <li><a href="#">EGP</a></li>
+                </ul>
+            </div>
+        </aside>
+        <div class="theUl">
+            <div class="container">
+                <div class="theUl-row">
+                    <div class="left-ul">
+                    <div class="first">
+                        <i class="fa-solid fa-bars"></i>
+                        <h3>shop by category</h3>
+                    </div>
+                    <ul>
+                        <li><a href="#">demo</a></li>
+                        <li><a href="#">shop</a></li>
+                        <li><a href="#">product</a></li>
+                        <li><a href="#">sale</a></li>
+                        <li><a href="#">pages</a></li>
+                        <li><a href="#">lookbooks</a></li>
+                        <li><a href="#">blog</a></li>
+                        <li><a href="#">buy</a></li>
+                    </ul>
+                </div>
+                <div class="right-contact">
+                    <a href="#" class="phone">
+                        +01 23456789
+                    </a>
+                    <a href="#" class="email">
+                        kalles@domain.com
+                    </a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h2>Decor your home with high-end audio</h2>
+                    <button>shop now</button>
+                </div>
+            </div>
+        </section>
+        <section class="secSection">
+            <div class="container">
+                <div class="secSection-row">
+                    <div class="cards1">
+                        <i class="fa-regular fa-life-ring"></i>
+                        <div class="right-content">
+                            <h3>SUPPORT 24/7</h3>
+                            <p>we support 24 hours a day</p>
+                        </div>
+                    </div>
+                    <div class="cards1">
+                        <i class="fa-solid fa-rotate"></i>
+                        <div class="right-content">
+                            <h3>30 DAYS RETURN</h3>
+                            <p>you have 30 days to return</p>
+                        </div>
+                    </div>
+                    <div class="cards1">
+                        <i class="fa-regular fa-circle-user"></i>
+                        <div class="right-content">
+                            <h3>100% PAYMENT SECURE</h3>
+                            <p>Payment 100% Secure</p>
+                        </div>
+                    </div>
+                    <div class="cards2">
+                        <img src="./imgs/cat15_540x_5937bd80-7fb0-40ee-8e79-4b859009b332.webp" alt="">
+                        <button>Audio</button>
+                    </div>
+                    <div class="cards2">
+                        <img src="./imgs/cat13_540x_7f271f48-b0f1-4be5-9b0a-b246835b7dc5.webp" alt="">
+                        <button>Speaker</button>
+                    </div>
+                    <div class="cards2">
+                        <img src="./imgs/hi-end_540x_514ca361-4bdc-48e8-a6d3-be0018db6879.webp" alt="">
+                        <button>Hi-End</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="products">
+            <div class="container">
+                <div class="title">
+                    <h3>BESTSELLER</h3>
+                    <p>Top seller in the week</p>
+                </div>
+                <div class="products-row">
+                    <div class="cards3">
+                        <div class="image">
+                            <span>-29%</span>
+                            <img src="./imgs/camera1.webp" alt="">
+                            <img src="./imgs/camera-1.jpg" alt="" class="img2">
+                            <div class="left-icons">
+                                <div class="icon"><i class="fa-regular fa-heart"></i></div>
+                                <div class="icon"><i class="fa-solid fa-arrows-spin"></i></div>
+                            </div>
+                            <div class="two-buttons">
+                                <button>quick view</button>
+                                <button>add to cart</button>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h4>Ysamsung Camera</h4>
+                            <div class="discount">
+                                <span class="disc">
+                                    $25.00
+                                </span>
+                                <span class="price">
+                                    $35.00
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cards3">
+                        <div class="image">
+                            <img src="./imgs/headphones1.webp" alt="">
+                            <img src="./imgs/headphones2.webp" alt="" class="img2">
+                            <div class="left-icons">
+                                <div class="icon"><i class="fa-regular fa-heart"></i></div>
+                                <div class="icon"><i class="fa-solid fa-arrows-spin"></i></div>
+                            </div>
+                            <div class="two-buttons">
+                                <button>quick view</button>
+                                <button>add to cart</button>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h4>Beats Solo3 Wireless</h4>
+                            <span class="price2">
+                                $35.00
+                            </span>
+                        </div>
+                    </div>
+                    <div class="cards3">
+                        <div class="image">
+                            <img src="./imgs/camera11.webp" alt="">
+                            <img class="img2" src="./imgs/camera2.webp" alt="">
+                            <div class="left-icons">
+                                <div class="icon"><i class="fa-regular fa-heart"></i></div>
+                                <div class="icon"><i class="fa-solid fa-arrows-spin"></i></div>
+                            </div>
+                            <div class="two-buttons">
+                                <button>quick view</button>
+                                <button>add to cart</button>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h4>Lomo Sanremo Edition</h4>
+                            <span class="price2">
+                                $65.00
+                            </span>
+                        </div>
+                    </div>
+                    <div class="cards3">
+                        <div class="image">
+                            <img src="./imgs/speaker1.webp" alt="">
+                            <img class="img2" src="./imgs/speaker2.webp" alt="">
+                            <div class="left-icons">
+                                <div class="icon"><i class="fa-regular fa-heart"></i></div>
+                                <div class="icon"><i class="fa-solid fa-arrows-spin"></i></div>
+                            </div>
+                            <div class="two-buttons">
+                                <button>quick view</button>
+                                <button>add to cart</button>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h4>Ygoogle Speaker</h4>
+                            <span class="price2">
+                                $65.00
+                            </span>
+                        </div>
+                    </div>
+                    <div class="cards3">
+                        <div class="image">
+                            <img src="./imgs/h9i11.webp" alt="">
+                            <img class="img2" src="./imgs/h9i2.webp" alt="">
+                            <div class="left-icons">
+                                <div class="icon"><i class="fa-regular fa-heart"></i></div>
+                                <div class="icon"><i class="fa-solid fa-arrows-spin"></i></div>
+                            </div>
+                            <div class="two-buttons">
+                                <button>quick view</button>
+                                <button>add to cart</button>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h4>Ybeoplay H9i</h4>
+                            <span class="price2">
+                                $55.00
+                            </span>
+                        </div>
+                    </div>
+                    <div class="cards3">
+                        <div class="image">
+                            <img src="./imgs/lap1.webp" alt="">
+                            <img class="img2" src="./imgs/lap2.webp" alt="">
+                            <div class="left-icons">
+                                <div class="icon"><i class="fa-regular fa-heart"></i></div>
+                                <div class="icon"><i class="fa-solid fa-arrows-spin"></i></div>
+                            </div>
+                            <div class="two-buttons">
+                                <button>quick view</button>
+                                <button>add to cart</button>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h4>YApple MacBook</h4>
+                            <span class="price2">
+                                $55.00
+                            </span>
+                        </div>
+                    </div>
+                    <div class="cards3">
+                        <div class="image">
+                            <span class="new">new</span>
+                            <img src="./imgs/basket1.webp" alt="">
+                            <img class="img2" src="./imgs/basket2.jpg" alt="">
+                            <div class="left-icons">
+                                <div class="icon"><i class="fa-regular fa-heart"></i></div>
+                                <div class="icon"><i class="fa-solid fa-arrows-spin"></i></div>
+                            </div>
+                            <div class="two-buttons">
+                                <button>quick view</button>
+                                <button>add to cart</button>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h4>Contemporary design classic</h4>
+                            <span class="price2">
+                                $25.00
+                            </span>
+                        </div>
+                    </div>
+                    <div class="cards3">
+                        <div class="image">
+                            <img src="./imgs/watch1.webp" alt="">
+                            <img class="img2" src="./imgs/watch2.webp" alt="">
+                            <div class="left-icons">
+                                <div class="icon"><i class="fa-regular fa-heart"></i></div>
+                                <div class="icon"><i class="fa-solid fa-arrows-spin"></i></div>
+                            </div>
+                            <div class="two-buttons">
+                                <button>quick view</button>
+                                <button>add to cart</button>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h4>Yapple Watch Nike Series 4</h4>
+                            <span class="price2">
+                                $49.00
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="but">
+                    <button>load more</button>
+                </div>
+            </div>
+        </section>
+        <section class="subs">
+            <div class="container">
+                <div class="inside">
+                    <div class="title2">
+                        <h3>SUBSCRIBE OUR NEWSLETTER</h3>
+                        <p>Sign up for our newsletter to be updated on the latest designs, exclusive offers, inspiration and tips!</p>
+                    </div>
+                    <div class="subs-input">
+                        <input type="email" placeholder="Your email address">
+                        <button class="subscribe">
+                            Subscribe
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="last-one">
+            <div class="container">
+                <div class="title3">
+                    <h3>LATEST FROM BLOG</h3>
+                    <p>The freshest and most exciting news</p>
+                </div>
+                <div class="last-one-row">
+                    <div class="cardd">
+                        <div class="image2">
+                            <img src="./imgs/elicbog19.webp" alt="">
+                        </div>
+                        <div class="card-body2">
+                            <h4>Microsoft’s Top Secret Surface Headphones Project Revealed</h4>
+                            <h5>By admin on May 6, 2022</h5>
+                            <p>Microsoft unveils the cool grey, minimalist voice-controlled Surface Headphones.</p>
+                        </div>
+                    </div>
+                    <div class="cardd">
+                        <div class="image2">
+                            <img src="./imgs/elicbog20.webp" alt="">
+                        </div>
+                        <div class="card-body2">
+                            <h4>The Headphones Can Translate 11 Languages Wireless Speaker</h4>
+                            <h5>By admin on May 6, 2022</h5>
+                            <p>These 3-in-1 headphones can snap together and turn into a wireless speaker.</p>
+                        </div>
+                    </div>
+                    <div class="cardd none">
+                        <div class="image2">
+                            <img src="./imgs/elicbog21.webp" alt="">
+                        </div>
+                        <div class="card-body2">
+                            <h4>Dial and Disc Wireless Chargers home office from SumS</h4>
+                            <h5>By admin on May 6, 2022</h5>
+                            <p>Sleek, minimalist wireless charging designs to "complement and blend within the home and office".</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="foot">
+            <div class="container">
+                <div class="foot-row">
+                    <div class="one">
+                        <a href="./index.html">
+                            <img src="./imgs/logo_c6c02253-b1fc-4536-91a6-a3c9110c5550 (1).webp" alt="">
+                        </a>
+                        <p class="gps">
+                            184 Main Rd E, St Albans VIC 3021, Australia
+                        </p>
+                        <p class="message">
+                            contact@company.com
+                        </p>
+                        <p class="phone2">
+                            +001 2233 456
+                        </p>
+                        <div class="social-links">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-x-twitter"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-pinterest-p"></i>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+                    </div>
+                    <div class="two">
+                        <h3>Categories</h3>
+                        <ul>
+                            <li><a href="#">men</a></li>
+                            <li><a href="#">women</a></li>
+                            <li><a href="#">accessoires</a></li>
+                            <li><a href="#">shoes</a></li>
+                            <li><a href="#">denim</a></li>
+                            <li><a href="#">dress</a></li>
+                        </ul>
+                    </div>
+                    <div class="two">
+                        <h3>Infomation</h3>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Returns Exchanges</a></li>
+                            <li><a href="#">Shipping Delivery</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Open Shopify store</a></li>
+                        </ul>
+                    </div>
+                    <div class="two">
+                        <h3>Useful links</h3>
+                        <ul>
+                            <li><a href="#">Latest News</a></li>
+                            <li><a href="#">My Account</a></li>
+                            <li><a href="#">Size Guide</a></li>
+                            <li><a href="#">FAQs 2</a></li>
+                            <li><a href="#">FAQs</a></li>
+                        </ul>
+                    </div>
+                    <div class="three">
+                        <h3>Infomation</h3>
+                        <p>
+                            Subscribe to our newsletter and get 10% off your first purchase
+                        </p>
+                        <div class="three-input">
+                            <input type="text" placeholder="Your email address">
+                            <button class="subscribe2">
+                                subscribe
+                            </button>
+                        </div>
+                        <img src="./imgs/payment2.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="last-foot">
+            <div class="container">
+                <div class="last-row">
+                    <h5>
+                        All Rights Reserved © 2024 <a href="#" class="kalles">Kalles</a> store - Developed by <a href="#" class="the">The4</a>
+                    </h5>
+                    <ul>
+                        <li><a href="#">shop</a></li>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">contact</a></li>
+                        <li><a href="#">blog</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Next Project -->
+    <!-- https://demo-kalles-4-4.myshopify.com/ -->
+    <!-- JS -->
+    <script src="./js/main.js"></script>
+</body>
+</html>
